@@ -1,0 +1,29 @@
+#container {
+	background-color: black;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.cell {
+	display: inline-block;
+	float:left;
+	width: 150px;
+	height: 150px;
+}
+
+.rightLine {border-right: 3px solid black;}
+
+.bottomLine {border-bottom: 3px solid black;}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	color: #000FF0;
+	font-style: italic;
+}
+
+/*body{
+	background-image: ;
+}*/

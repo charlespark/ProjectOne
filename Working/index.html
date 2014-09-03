@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="tttApp">
+<title>Tic Tac Toe - GA WDI Project One</title>
+	<head>
+		<meta charset="utf-8">
+
+		<!-- 	[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- Links to CSS -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Link to AngularJS -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular.js"></script>
+
+		<!-- Link to Firebase -->
+		<script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+
+		<!-- Link to AngularFire -->
+		<script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
+		<script src="js.app/js"></script>
+	</head>
+
+	<body ng-controller="tttController">
+		<main>
+			<h1>Exes against Ohs</h1>
+			<div id="container">
+<!-- 					<form name="contestants">
+						<span>Exes</span>
+						<input id="Exes" ng-model="Exes">
+
+						<span>Ohs</span>
+						<input id="Ohs" ng-model="Ohs">
+
+					<!-- <button class="btn btn-success" type="button" ng-click="addName()"><i class="icon-plus" ></i>Submit</button>
+					</form> -->
+				<p>Exes x Ohs</p>
+
+				<span ng-repeat="cell in gameBoard track by $index" ng-class="{cell: true, clear:($index % 3 == 0), rightLine: ($index % 3 !=2), bottomLine:($index <=5)}" ng-click="switchPlayer($index)" >{{ cell }}</span>
+
+			</div>
+		</main>
+	</body>
+</html>

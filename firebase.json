@@ -1,0 +1,9 @@
+{
+  "firebase": "white-limo",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

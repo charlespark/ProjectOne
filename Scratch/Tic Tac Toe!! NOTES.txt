@@ -1,0 +1,28 @@
+Tic Tac Toe!!
+=============
+
+* for WDI
+
+/ refers to the contents of the directory, not necessarily the directory (folder) itself.
+
+     |     |     
+     |     |
+_________________
+     |     |     
+     |     |
+_________________
+     |     |     
+     |     |
+
+
+
+
+How can we model the Tic-Tac-Toe board via JavaScript?
+
+[] - Via an array
+
+{} - Via a JavaScript
+
+[[]] - Via an array of arrays
+
+" " - Via a string
